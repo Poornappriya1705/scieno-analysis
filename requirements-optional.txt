@@ -1,0 +1,5 @@
+# Optional topic-model extras. Not required for the core Streamlit application.
+gensim>=4.3
+# BERTopic requires a heavier transformer stack and may need version-specific wheels:
+# bertopic>=0.17
+# sentence-transformers>=3.0

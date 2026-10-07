@@ -1,0 +1,28 @@
+project:
+  title: "Scientometric Analysis of the Selected Research Domain"
+  chapter_title: "SCIENTOMETRIC ANALYSIS"
+  author: "Researcher"
+input:
+  folder: "data/input"
+  recursive: true
+  allowed_extensions: [".csv", ".xlsx", ".xls", ".txt", ".bib"]
+cleaning:
+  start_year: null
+  end_year: null
+  fuzzy_title_threshold: 96
+  minimum_title_length: 20
+analysis:
+  top_n: 20
+  min_keyword_frequency: 3
+  min_author_documents: 2
+  min_country_documents: 2
+  min_source_documents: 2
+  network_top_nodes: 75
+  topics: 8
+  topic_top_words: 10
+  random_state: 42
+report:
+  output_folder: "outputs"
+  filename: "Scientometric_Analysis_Report.docx"
+  include_database_comparison: true
+  include_appendix: true

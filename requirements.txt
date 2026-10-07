@@ -1,0 +1,17 @@
+pandas>=2.2
+numpy>=1.26
+scipy>=1.12
+scikit-learn>=1.4
+networkx>=3.2
+matplotlib>=3.8
+openpyxl>=3.1
+xlrd>=2.0.1
+bibtexparser>=1.4
+python-docx>=1.1
+PyYAML>=6.0
+wordcloud>=1.9
+rapidfuzz>=3.9
+pycountry>=24.6
+streamlit>=1.38
+plotly>=5.24
+statsmodels>=0.14
